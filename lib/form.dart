@@ -43,9 +43,8 @@ class _MyFormPageState extends State<MyFormPage> {
               title: const Text('Form'),
               onTap: () {
                 // Route menu ke halaman form
-                Navigator.pushReplacement(
+                Navigator.pop(
                   context,
-                  MaterialPageRoute(builder: (context) => const MyFormPage()),
                 );
               },
             ),
